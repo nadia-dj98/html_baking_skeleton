@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roxborough;
+    src: url(/Roxborough.ttf);
+}
+
+
+
+#website_title {
+    font-family:  Roxborough;
+    font-size : 50px;
+    text-align: center;
+}
+
+header {
+    background-color: #EBE6DD;
+}
+header > nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+
+.dinner__container {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+/* Most popular section */
+
+.mostPopular__container {
+    padding: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.mostPopular__container img {
+    width: 250px;
+    height: 400px;
+}
